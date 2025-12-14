@@ -13,31 +13,32 @@
     "db:studio": "supabase studio"
   },
   "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^4.5.0",
+    "@supabase/ssr": "^0.5.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "framer-motion": "^11.11.0",
+    "lucide-react": "^0.454.0",
     "next": "^16.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@supabase/supabase-js": "^2.45.0",
-    "@supabase/ssr": "^0.5.0",
-    "@fingerprintjs/fingerprintjs": "^4.5.0",
-    "framer-motion": "^11.11.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
     "tailwind-merge": "^2.5.0",
-    "lucide-react": "^0.454.0",
-    "date-fns": "^4.1.0",
-    "date-fns-tz": "^3.2.0"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "typescript": "^5.6.0",
-    "tailwindcss": "^3.4.0",
-    "postcss": "^8.4.0",
     "autoprefixer": "^10.4.0",
     "eslint": "^9.0.0",
     "eslint-config-next": "^16.0.0",
-    "supabase": "^1.200.0"
+    "postcss": "^8.4.0",
+    "supabase": "^1.200.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.6.0"
   },
   "engines": {
     "node": ">=20.9.0"

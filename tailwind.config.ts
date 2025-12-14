@@ -50,6 +50,51 @@ const config: Config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        // Brand colors - main blue (#093D7F)
+        brand: {
+          50: '#E6EEF7',
+          100: '#C2D4EB',
+          200: '#9AB8DD',
+          300: '#6E99CC',
+          400: '#0B4EA2',
+          500: '#093D7F',
+          600: '#073366',
+          700: '#05284F',
+          800: '#041E3B',
+          900: '#021426',
+          950: '#010A14',
+          DEFAULT: '#093D7F',
+        },
+        // Secondary red (#D6192F)
+        'brand-secondary': {
+          50: '#FEF2F3',
+          100: '#FDE6E8',
+          200: '#FBD0D5',
+          300: '#F7A8B2',
+          400: '#EE1C25',
+          500: '#D6192F',
+          600: '#B51526',
+          700: '#94111F',
+          800: '#7A0F1A',
+          900: '#66101A',
+          950: '#3A050A',
+          DEFAULT: '#D6192F',
+        },
+        // Ternary gray (#E6E6E6) - backgrounds & elements
+        'brand-ternary': {
+          50: '#FFFFFF',
+          100: '#FAFAFA',
+          200: '#F5F5F5',
+          300: '#F0F0F0',
+          400: '#EBEBEB',
+          500: '#E6E6E6',
+          600: '#CCCCCC',
+          700: '#B3B3B3',
+          800: '#999999',
+          900: '#737373',
+          950: '#525252',
+          DEFAULT: '#E6E6E6',
+        },
         // Custom Splachovačka colors
         toilet: {
           bowl: '#F5F5F5',
@@ -68,7 +113,9 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       fontFamily: {
-        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-fredoka)', 'system-ui', 'sans-serif'],
+        body: ['var(--font-nunito)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-nunito)', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         // Flush swirl animation
